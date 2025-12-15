@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="phone.css">
+    <title>돌봄이</title> 
+</head>
+<body>
+    <div id="sidebar" class="side">
+        <header>
+            <h1>
+                 돌봄이
+            </h1>
+        </header>
+        <aside>
+        <nav class="side domain">
+            <div class="question-button">
+            <a href="../main/main.html" class="question">
+                 AI에게 질문하기
+            </a>
+        </div>
+        <div class="phone-button">
+            <a href="phone.html" class="phone">
+                최신 전자기기 사용법
+            </a>
+        </div>
+        <div class="game-button">
+            <a href="../game11/game11.html" class="game">
+                 치매 예방 게임하기
+            </a>
+        </div>
+    </nav>
+    </aside>
+    </div>
+    <main id="main-container">
+    <div class="phone-a">
+    <p class="phone-name">안녕하세요. 최신 전자기기 교육 화면입니다.</p>
+    <p class="phone-content">설명을 원하시는 전자기기의 버튼을 누르시면 친절한 설명이 나와요</p>   
+    </div>
+<div class="phone-pile">
+    <button class="modal-opener" data-target="smartphone">
+        스마트폰 사용법 보기
+    </button>
+    
+    <button class="modal-opener" data-target="kiosk">
+        키오스크 사용법 보기
+    </button>
+
+    <button class="modal-opener" data-target="remote">
+        리모컨 사용법 보기
+    </button>
+</div>
+    <div id="modalOverlay">
+        <div id="modal-content">
+            <h3 id="modalTitle"></h3>
+            <p id="modalBody"></p>
+            <button id="closeBtn">닫기</button>
+        </div>
+    </div>
+</main>
+    <script src="./phone.js"></script>
+</body>
+</html>

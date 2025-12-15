@@ -1,0 +1,144 @@
+body{
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    min-height: 100vh;
+    margin: 0;
+}
+#sidebar{
+    background-color:  #F3F7EB;
+}
+#main-container{
+    background-color: #FFFFFF;
+}
+h1{
+    color: #6AA84F;
+    margin-left: 20px;
+}
+.side{
+    padding-left: 15px; 
+}
+.main-section{
+    margin-left: 20px;
+    text-align: center;
+}
+.question, .phone, .game {
+    text-decoration: none;
+    border: 1px solid #A9D143;
+    padding: 12px 35px;
+    margin: 2px 10px ;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #A9D143;
+}
+.question-button,.phone-button,.game-button {
+    margin-bottom: 40px;
+}
+.dolbom{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #6AA84F;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+.dolbom-content{
+    font-size: x-large;
+    font-weight: bold;
+    color: #A9D143;
+    margin-top: 3px;
+}
+.direct-writing{
+    margin-top: 10px;
+    margin-left: 85px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.search-input{
+    padding: 20px 300px;
+    border-radius: 3px;
+    border: 0.5px solid black;
+    margin-bottom: 3px;
+}
+.sendbuttonclass{
+    padding: 15px 30px;
+    background-color: #6AA84F;
+    border-radius: 4px;
+    border: 1px solid #6AA84F;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.direct-question{
+    margin-left: 85px;
+    text-align: left;
+    margin-top: 5px;
+}
+.prompt-button1, .prompt-button2, .prompt-button3, .prompt-button4  {
+    background-color: #A9D143;
+    color: white;
+    border: 0.5px solid #A9D143;
+    padding: 14px 43px;
+    border-radius: 4px;
+    margin-right: 7px;
+    font-size: medium;
+    font-weight: bold;
+}
+.main-question{
+    margin-top: 70px;
+}
+.main-question, .guide-button{
+    font-weight: bold;
+    font-size: larger;
+}
+.guide-button{
+    text-decoration: none;
+    border: 1px solid #6AA84F;
+    background-color: #6AA84F;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+#modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1000;
+    display: none; 
+    justify-content: center;
+    align-items: center; 
+}
+#modal-content {
+    background-color: white;
+    padding: 10px 250px;
+    border-radius: 8px;
+    width: 80%; 
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.de1,.de2,.de3{
+    font-weight: bold;
+    font-size: x-large;
+}
+#closeBtn{
+    background-color: #A9D143;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #A9D143;
+    padding: 7px 15px;
+    border-radius: 4px;
+}
+.AnserSection{
+    border: 1px solid black;
+    font-size: xx-large;
+    padding: 210px 50px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
